@@ -116,7 +116,7 @@ export default function Home() {
               language={language}
                     />
             <AccountCard
-              email="kokob10152@limtu.com"
+              email="tenatof891@fandoe.com"
               password="zalo0385531007"
               description={t("account.chatgptgo", language)}
               updatedAt="5 mins ago"
