@@ -50,7 +50,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Accounts Section
     "accounts.title": "Tài Khoản Có Sẵn",
-    "account.premium": "Tài Khoản ProPro",
+    "account.premium": "Tài Khoản Pro",
     "account.pro": "Tài Khoản Pro",
     "account.team": "Tài Khoản Team",
     "account.email": "Email",
