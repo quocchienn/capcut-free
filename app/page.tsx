@@ -90,7 +90,14 @@ export default function Home() {
               updatedAt="5 mins ago"
               accessCount={32}
               language={language}
-            
+               />
+            <AccountCard
+              email="5EUGQC-3AECLJ-5CCHC2"
+              password="KEY"
+              description={t("account.hma", language)}
+              updatedAt="5 mins ago"
+              accessCount={32}
+              language={language}
             />
             <AccountCard
               email="chưa có"
