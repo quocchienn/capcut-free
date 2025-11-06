@@ -14,8 +14,8 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Accounts Section
     "accounts.title": "Available Accounts",
-    "account.premium": "Pro Account",
-    "account.pro": "Pro Account",
+    "account.premium": "CapCut Account",
+    "account.pro": "CapCut Account",
     "account.hma": "HMA Account",
     "account.chatgptgo": "ChatGPT GO Account",
     "account.team": "Team Account",
@@ -52,8 +52,8 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Accounts Section
     "accounts.title": "Tài Khoản Có Sẵn",
-    "account.premium": "Tài Khoản Pro",
-    "account.pro": "Tài Khoản Pro",
+    "account.premium": "Tài Khoản CapCut",
+    "account.pro": "Tài Khoản CapCut",
     "account.hma": "Tài Khoản HMA",
     "account.chatgptgo": "Tài Khoản ChatGPT Go",
     "account.team": "Tài Khoản Team",
