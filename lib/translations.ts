@@ -17,7 +17,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "account.premium": "Pro Account",
     "account.pro": "Pro Account",
     "account.hma": "HMA Account",
-    "account.hma": "ChatGPT GO Account",
+    "account.chatgptgo": "ChatGPT GO Account",
     "account.team": "Team Account",
     "account.email": "Email",
     "account.password": "Password",
