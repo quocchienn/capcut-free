@@ -98,6 +98,14 @@ export default function Home() {
               updatedAt="5 mins ago"
               accessCount={32}
               language={language}
+                 />
+            <AccountCard
+              email="xeyak78808@fandoe.com"
+              password="zalo0385531007"
+              description={t("account.chatgptgo", language)}
+              updatedAt="5 mins ago"
+              accessCount={32}
+              language={language}
             />
             <AccountCard
               email="chưa có"
