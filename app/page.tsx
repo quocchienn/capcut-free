@@ -60,7 +60,7 @@ export default function Home() {
           <h2 className="mb-4 sm:mb-6 text-lg font-semibold text-white/80">{t("accounts.title", language)}</h2>
           <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             <AccountCard
-              email="dasiric611@limtu.com"
+              email="quocchien03@outlook.com"
               password="zalo0385531007"
               description={t("account.premium", language)}
               updatedAt="2 mins ago"
@@ -68,7 +68,7 @@ export default function Home() {
               language={language}
             />
             <AccountCard
-              email="xemomi8231@fandoe.com"
+              email="quocchien02@outlook.com"
               password="zalo0385531007"
               description={t("account.pro", language)}
               updatedAt="5 mins ago"
@@ -76,7 +76,7 @@ export default function Home() {
               language={language}
               />
               <AccountCard
-              email="fofadan875@fandoe.com"
+              email="quocchien01@hotmail.com"
               password="zalo0385531007"
               description={t("account.premium", language)}
               updatedAt="2 mins ago"
