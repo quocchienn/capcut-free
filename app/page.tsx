@@ -100,6 +100,14 @@ export default function Home() {
               language={language}
                  />
             <AccountCard
+              email="6BPNT3-SG5RAJ-5DLHKS"
+              password="KEY"
+              description={t("account.hma", language)}
+              updatedAt="5 mins ago"
+              accessCount={32}
+              language={language}
+                 />
+            <AccountCard
               email="quocchien02@outlook.com"
               password="zalo0385531007"
               description={t("account.chatgptgo", language)}
