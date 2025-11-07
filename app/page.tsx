@@ -100,7 +100,7 @@ export default function Home() {
               language={language}
                  />
             <AccountCard
-              email="xeyak78808@fandoe.com"
+              email="quocchien02@outlook.com"
               password="zalo0385531007"
               description={t("account.chatgptgo", language)}
               updatedAt="5 mins ago"
@@ -108,7 +108,7 @@ export default function Home() {
               language={language}
                />
             <AccountCard
-              email="kokob10152@limtu.com"
+              email="quocchien03@outlook.com"
               password="zalo0385531007"
               description={t("account.chatgptgo", language)}
               updatedAt="5 mins ago"
@@ -116,7 +116,7 @@ export default function Home() {
               language={language}
                     />
             <AccountCard
-              email="tenatof891@fandoe.com"
+              email="quocchien04@outlook.com"
               password="zalo0385531007"
               description={t("account.chatgptgo", language)}
               updatedAt="5 mins ago"
@@ -124,7 +124,7 @@ export default function Home() {
               language={language}
               />
               <AccountCard
-              email="kewomo5516@limtu.com"
+              email="quocchien01@hotmail.com"
               password="zalo0385531007"
               description={t("account.chatgptgo", language)}
               updatedAt="5 mins ago"
