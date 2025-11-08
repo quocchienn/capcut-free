@@ -5,7 +5,7 @@ import { useLanguageContext } from "@/lib/language-context"
 import { t } from "@/lib/translations"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import RealTimeStats from "@/components/real-time-stats"
-import AccountCard from "@/components/account-card"
+import AccountsTabs from "@/components/accounts-tabs"
 import LiveClock from "@/components/live-clock"
 
 export default function Home() {
@@ -15,6 +15,105 @@ export default function Home() {
   useEffect(() => {
     setIsClient(true)
   }, [])
+
+  const accounts = [
+    {
+      email: "betsy36@hunght1890.com",
+      password: "hung2710",
+      description: t("account.premium", language),
+      updatedAt: "2 mins ago",
+      accessCount: 45,
+      category: "capcut" as const,
+    },
+    {
+      email: "furman.weber@hunght1890.com",
+      password: "hung2710",
+      description: t("account.pro", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "capcut" as const,
+    },
+    {
+      email: "quocchien01@hotmail.com",
+      password: "zalo0385531007",
+      description: t("account.premium", language),
+      updatedAt: "2 mins ago",
+      accessCount: 45,
+      category: "capcut" as const,
+    },
+    {
+      email: "quocchien03@outlook.com",
+      password: "zalo0385531007",
+      description: t("account.premium", language),
+      updatedAt: "2 mins ago",
+      accessCount: 45,
+      category: "capcut" as const,
+    },
+    {
+      email: "quocchien02@outlook.com",
+      password: "zalo0385531007",
+      description: t("account.pro", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "capcut" as const,
+    },
+    {
+      email: "5EUGQC-3AECLJ-5CCHC2",
+      password: "KEY",
+      description: t("account.hma", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "hma" as const,
+    },
+    {
+      email: "6BPNT3-SG5RAJ-5DLHKS",
+      password: "KEY",
+      description: t("account.hma", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "hma" as const,
+    },
+    {
+      email: "quocchien02@outlook.com",
+      password: "zalo0385531007",
+      description: t("account.chatgptgo", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "chatgpt" as const,
+    },
+    {
+      email: "quocchien03@outlook.com",
+      password: "zalo0385531007",
+      description: t("account.chatgptgo", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "chatgpt" as const,
+    },
+    {
+      email: "quocchien04@outlook.com",
+      password: "zalo0385531007",
+      description: t("account.chatgptgo", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "chatgpt" as const,
+    },
+    {
+      email: "quocchien01@hotmail.com",
+      password: "zalo0385531007",
+      description: t("account.chatgptgo", language),
+      updatedAt: "5 mins ago",
+      accessCount: 32,
+      category: "chatgpt" as const,
+    },
+    {
+      email: "chưa có",
+      password: "chưa có",
+      description: t("account.team", language),
+      updatedAt: "1 hour ago",
+      accessCount: 18,
+      category: "team" as const,
+    },
+  ]
 
   if (!isClient) {
     return null
@@ -58,104 +157,7 @@ export default function Home() {
 
         <div className="mb-10 sm:mb-12">
           <h2 className="mb-4 sm:mb-6 text-lg font-semibold text-white/80">{t("accounts.title", language)}</h2>
-          <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            <AccountCard
-              email="betsy36@hunght1890.com"
-              password="hung2710"
-              description={t("account.premium", language)}
-              updatedAt="2 mins ago"
-              accessCount={45}
-              language={language}
-            />
-            <AccountCard
-              email="furman.weber@hunght1890.com"
-              password="hung2710"
-              description={t("account.pro", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-              />
-              <AccountCard
-              email="quocchien01@hotmail.com"
-              password="zalo0385531007"
-              description={t("account.premium", language)}
-              updatedAt="2 mins ago"
-              accessCount={45}
-              language={language}
-            />
-              <AccountCard
-              email="quocchien03@outlook.com"
-              password="zalo0385531007"
-              description={t("account.premium", language)}
-              updatedAt="2 mins ago"
-              accessCount={45}
-              language={language}
-            />
-            <AccountCard
-              email="quocchien02@outlook.com"
-              password="zalo0385531007"
-              description={t("account.pro", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-               />
-            <AccountCard
-              email="5EUGQC-3AECLJ-5CCHC2"
-              password="KEY"
-              description={t("account.hma", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-                 />
-            <AccountCard
-              email="6BPNT3-SG5RAJ-5DLHKS"
-              password="KEY"
-              description={t("account.hma", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-                 />
-            <AccountCard
-              email="quocchien02@outlook.com"
-              password="zalo0385531007"
-              description={t("account.chatgptgo", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-               />
-            <AccountCard
-              email="quocchien03@outlook.com"
-              password="zalo0385531007"
-              description={t("account.chatgptgo", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-                    />
-            <AccountCard
-              email="quocchien04@outlook.com"
-              password="zalo0385531007"
-              description={t("account.chatgptgo", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-              />
-              <AccountCard
-              email="quocchien01@hotmail.com"
-              password="zalo0385531007"
-              description={t("account.chatgptgo", language)}
-              updatedAt="5 mins ago"
-              accessCount={32}
-              language={language}
-            />
-            <AccountCard
-              email="chưa có"
-              password="chưa có"
-              description={t("account.team", language)}
-              updatedAt="1 hour ago"
-              accessCount={18}
-              language={language}
-            />
-          </div>
+          <AccountsTabs language={language} accounts={accounts} />
         </div>
 
         <div

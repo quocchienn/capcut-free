@@ -22,6 +22,9 @@ export const translations: Record<Language, Record<string, string>> = {
     "account.email": "Email",
     "account.password": "Password",
     "account.lastUpdated": "Last Updated",
+    "account.copied": "Copied!",
+    "account.copyBoth": "Copy Both",
+    "account.accessCount": "Access Count",
 
     // How to Use Section
     "instructions.title": "How to Use",
@@ -38,6 +41,10 @@ export const translations: Record<Language, Record<string, string>> = {
     // Language
     "language.english": "English",
     "language.vietnamese": "Tiếng Việt",
+
+    "tab.all": "All Accounts",
+    "tab.team": "Team",
+    "tab.noAccounts": "No accounts available in this category",
   },
   vi: {
     // Header
@@ -60,6 +67,9 @@ export const translations: Record<Language, Record<string, string>> = {
     "account.email": "Email",
     "account.password": "Mật Khẩu",
     "account.lastUpdated": "Cập Nhật Lần Cuối",
+    "account.copied": "Đã sao chép!",
+    "account.copyBoth": "Sao Chép Cả Hai",
+    "account.accessCount": "Số Lần Truy Cập",
 
     // How to Use Section
     "instructions.title": "Cách Sử Dụng",
@@ -76,6 +86,10 @@ export const translations: Record<Language, Record<string, string>> = {
     // Language
     "language.english": "English",
     "language.vietnamese": "Tiếng Việt",
+
+    "tab.all": "Tất Cả Tài Khoản",
+    "tab.team": "Team",
+    "tab.noAccounts": "Không có tài khoản nào trong danh mục này",
   },
 }
 

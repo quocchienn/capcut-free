@@ -11,6 +11,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "CapCut Share",
   description: "CapCut Share by quocchien",
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
