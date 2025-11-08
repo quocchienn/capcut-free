@@ -83,8 +83,16 @@ export default function Home() {
               accessCount={45}
               language={language}
             />
+              <AccountCard
+              email="quocchien03@outlook.com"
+              password="zalo0385531007"
+              description={t("account.premium", language)}
+              updatedAt="2 mins ago"
+              accessCount={45}
+              language={language}
+            />
             <AccountCard
-              email="xeyak78808@fandoe.com"
+              email="quocchien02@outlook.com"
               password="zalo0385531007"
               description={t("account.pro", language)}
               updatedAt="5 mins ago"
