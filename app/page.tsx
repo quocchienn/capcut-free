@@ -106,9 +106,9 @@ export default function Home() {
       category: "chatgpt" as const,
     },
     {
-      email: "chưa có",
+      email: "https://www.canva.com/brand/join?token=RpjPNBzjPhA15I7pwoqt_w&referrer=team-invite",
       password: "chưa có",
-      description: t("account.team", language),
+      description: t("account.teacanva", language),
       updatedAt: "1 hour ago",
       accessCount: 18,
       category: "team" as const,
