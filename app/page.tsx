@@ -108,7 +108,7 @@ export default function Home() {
     {
       email: "https://www.canva.com/brand/join?token=RpjPNBzjPhA15I7pwoqt_w&referrer=team-invite",
       password: "chưa có",
-      description: t("account.teacanva", language),
+      description: t("account.teamcanva", language),
       updatedAt: "1 hour ago",
       accessCount: 18,
       category: "team" as const,
