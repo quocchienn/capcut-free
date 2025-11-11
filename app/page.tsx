@@ -113,6 +113,14 @@ export default function Home() {
       accessCount: 18,
       category: "team" as const,
     },
+    {
+      email: "https://www.canva.com/brand/join?token=dO-Hz3Am5OzDP53vkq7jLg&referrer=team-invite",
+      password: "chưa có",
+      description: t("account.teamcanva", language),
+      updatedAt: "1 hour ago",
+      accessCount: 18,
+      category: "team" as const,
+    },
   ]
 
   if (!isClient) {
