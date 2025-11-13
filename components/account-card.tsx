@@ -23,7 +23,7 @@ export default function AccountCard({ Link, description, updatedAt, language }: 
   }
 
   const handleCopyBoth = () => {
-    const combined = `Email: ${email}\nPassword: ${password}`
+    const combined = `Email: ${Link}`
     navigator.clipboard.writeText(combined)
     setCopiedField("both")
     setTimeout(() => setCopiedField(null), 2000)
