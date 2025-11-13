@@ -12,7 +12,7 @@ interface AccountCardProps {
   language: Language
 }
 
-export default function AccountCard({ email, password, description, updatedAt, language }: AccountCardProps) {
+export default function AccountCard({ Link, description, updatedAt, language }: AccountCardProps) {
   const [copiedField, setCopiedField] = useState<string | null>(null)
   const [showPassword, setShowPassword] = useState(false)
 
