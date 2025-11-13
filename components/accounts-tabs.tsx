@@ -61,8 +61,7 @@ export default function AccountsTabs({ language, accounts }: AccountsTabsProps) 
         {filteredAccounts.map((account, index) => (
           <AccountCard
             key={`${index}`}
-            email={account.email}
-            password={account.password}
+            email={account.Link}
             description={account.description}
             updatedAt={account.updatedAt}
             language={language}
