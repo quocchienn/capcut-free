@@ -25,7 +25,7 @@ export default function Home() {
       category: "capcut" as const,
     },
     {
-      link: "BẢO TRÌ",
+      link: "https://link4m.com/0RuZ3gLg",
       description: t("account.pro", language),
       updatedAt: "5 mins ago",
       accessCount: 32,
