@@ -53,14 +53,14 @@ export default function Home() {
       category: "capcut" as const,
     },
     {
-      link: "5EUGQC-3AECLJ-5CCHC2",
+      link: "https://link4m.com/N6Aab",
       description: t("account.hma", language),
       updatedAt: "5 mins ago",
       accessCount: 32,
       category: "hma" as const,
     },
     {
-      link: "6BPNT3-SG5RAJ-5DLHKS",
+      link: "https://link4m.com/a9BlA",
       description: t("account.hma", language),
       updatedAt: "5 mins ago",
       accessCount: 32,
