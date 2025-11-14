@@ -60,8 +60,6 @@ export default function Home() {
       category: "hma" as const,
     },
     {
-    },
-    {
       link: "https://link4m.com/83SkeGBO",
       description: t("account.chatgptgo", language),
       updatedAt: "5 mins ago",
