@@ -6,8 +6,7 @@ import type { Language } from "@/lib/translations"
 import AccountCard from "@/components/account-card"
 
 interface Account {
-  email: string
-  password: string
+  link: string
   description: string
   updatedAt: string
   category: "capcut" | "chatgpt" | "hma" | "team"
@@ -61,7 +60,7 @@ export default function AccountsTabs({ language, accounts }: AccountsTabsProps) 
         {filteredAccounts.map((account, index) => (
           <AccountCard
             key={`${index}`}
-            email={account.Link}
+            link={account.link}
             description={account.description}
             updatedAt={account.updatedAt}
             language={language}
