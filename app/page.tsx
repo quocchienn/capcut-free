@@ -32,24 +32,17 @@ export default function Home() {
       category: "capcut" as const,
     },
     {
-      link: "BẢO TRÌ",
+      link: "https://link4m.com/XrIjr",
       description: t("account.premium", language),
       updatedAt: "2 mins ago",
       accessCount: 45,
       category: "capcut" as const,
     },
     {
-      link: "BẢO TRÌ",
+      link: "https://link4m.com/ZjPiEF2m",
       description: t("account.premium", language),
       updatedAt: "2 mins ago",
       accessCount: 45,
-      category: "capcut" as const,
-    },
-    {
-      link: "BẢO TRÌ",
-      description: t("account.pro", language),
-      updatedAt: "5 mins ago",
-      accessCount: 32,
       category: "capcut" as const,
     },
     {
@@ -67,21 +60,9 @@ export default function Home() {
       category: "hma" as const,
     },
     {
-      link: "KHÓAKHÓA",
-      description: t("account.chatgptgo", language),
-      updatedAt: "5 mins ago",
-      accessCount: 32,
-      category: "chatgpt" as const,
     },
     {
       link: "https://link4m.com/83SkeGBO",
-      description: t("account.chatgptgo", language),
-      updatedAt: "5 mins ago",
-      accessCount: 32,
-      category: "chatgpt" as const,
-    },
-    {
-      link: "KHÓAKHÓA",
       description: t("account.chatgptgo", language),
       updatedAt: "5 mins ago",
       accessCount: 32,
