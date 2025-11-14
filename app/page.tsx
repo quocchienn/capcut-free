@@ -18,7 +18,7 @@ export default function Home() {
 
   const accounts = [
     {
-      link: "BẢO TRÌ",
+      link: "https://link4m.com/4RorRnuB",
       description: t("account.premium", language),
       updatedAt: "2 mins ago",
       accessCount: 45,
